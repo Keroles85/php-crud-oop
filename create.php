@@ -1,13 +1,12 @@
 <?php
-include_once 'classes/database.php';
-include_once 'classes/product.php';
-include_once 'classes/category.php';
+include 'autoload.php';
 
 $database = new Database();
 $db = $database -> connect_db();
 
 $category = new Category($db);
 $product = new Product($db);
+
 
 // set page headers
 $page_title = "Create Product";

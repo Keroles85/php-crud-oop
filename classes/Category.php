@@ -1,7 +1,7 @@
 <?php
 
 
-class category
+class Category
 {
   private $conn;
   private $id;

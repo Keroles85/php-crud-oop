@@ -1,7 +1,7 @@
 <?php
 
 
-class product
+class Product
 {
   private $conn;
   private $name;
